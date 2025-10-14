@@ -38,6 +38,3 @@ trasa_literowa = [miasta[i] for i in trasa_wynikowa]
 
 print("Najkrótsza trasa:", " -> ".join(trasa_literowa))
 print("Długość trasy:", koszt_wynikowy)
-
-# Złożoność obliczeniowa czasowa: O(3!) = O(6)
-# Złożoność obliczeniowa pamięciowa: O(1)
