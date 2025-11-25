@@ -1,7 +1,9 @@
 # Metody przeszukiwania wyczerpującego
 
 Autor: *Filip Lisowski*
+
 Data: *14.10.2025*
+
 Przedmiot: *Algorytmy i struktury danych*
 
 ---
@@ -51,6 +53,8 @@ zlam_haslo("999")
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## 📍 Zadanie 2 - Znajdowanie trójki liczb.
 **Opis problemu:**
 Stwórz funkcję `znajdz_trojke(lista, target)`, która ma zwrócić **trzy różne indeksy** `(i, j, k)`, takie, że `lista[i] + lista[j] + lista[k] == target`.
@@ -94,6 +98,8 @@ print(znajdz_trojke([1, 2, 3, 4], 20))
 - Dla czwórki liczb: `O(n^4)`
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## 📍 **Zadanie 3: Problem sumy podzbioru (Subset Sum)**
 Masz **unikalne, dodatnie** liczby i `target`. 
@@ -141,6 +147,8 @@ print(znajdz_podzbior_sumy([2, 5, 8, 3], 10))
 
 ---
 
+<div style="page-break-before: always;"></div>
+
 ## Zadanie 4 - Problem Komiwojażera w małej skali
 Miasto startowe to **A** (indeks `0`). 
 Trzeba odwiedzić pozostałe **B, C, D** raz i wrócić do **A**, tak żeby trasa była **najkrótsza**.
@@ -178,6 +186,8 @@ Długość trasy: 80
 ```
 
 <br>
+
+<div style="page-break-before: always;"></div>
 
 **Kod programu:**
 
@@ -232,6 +242,8 @@ print("Długość trasy:", koszt_wynikowy)
 - Pamięciowa: O(n)
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 ## 📚 Podsumowanie:
 Wszystkie powyższe zadania wykorzystują metodę ***brute-force***.
